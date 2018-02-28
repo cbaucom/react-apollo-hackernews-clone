@@ -38,8 +38,9 @@ class CreateLink extends Component {
       variables: {
         description,
         url
-      }
+      },
     })
+    this.props.history.push('/')
   }
 }
 
